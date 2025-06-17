@@ -14,34 +14,34 @@ function setActiveStyle(color) {
 
 // body skin
 // Apply light mode on page load as default
-const bodySkin = document.querySelectorAll('.body-skin'),
-    totalBodySkin = bodySkin.length;
+// const bodySkin = document.querySelectorAll('.body-skin'),
+//     totalBodySkin = bodySkin.length;
 
-for (let i = 0; i < totalBodySkin; i++) {
-    bodySkin[i].addEventListener('change', function(){
-        if(this.value !== 'dark'){
-            document.body.className = 'dark';
-        } else {
-            document.body.className = '';
-        }
-    });
-}
+// for (let i = 0; i < totalBodySkin; i++) {
+//     bodySkin[i].addEventListener('change', function(){
+//         if(this.value !== 'dark'){
+//             document.body.className = 'dark';
+//         } else {
+//             document.body.className = '';
+//         }
+//     });
+// }
 
 // ##############################################################
 
 // Apply dark mode on page load as default 
-// document.body.classList.add('dark');
+document.body.classList.add('dark');
 
-// // Listen to radio button changes
-// document.querySelectorAll('.body-skin').forEach((input) => {
-//     input.addEventListener('change', () => {
-//         if (input.value === 'dark') {
-//             document.body.classList.add('dark');
-//         } else {
-//             document.body.classList.remove('dark');
-//         }
-//     });
-// });
+// Listen to radio button changes
+document.querySelectorAll('.body-skin').forEach((input) => {
+    input.addEventListener('change', () => {
+        if (input.value === 'dark') {
+            document.body.classList.add('dark');
+        } else {
+            document.body.classList.remove('dark');
+        }
+    });
+});
 
 // #############################################################
 
