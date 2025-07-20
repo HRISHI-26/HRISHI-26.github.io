@@ -1329,6 +1329,7 @@ textarea::placeholder, input::placeholder {
 @media(max-width: 575px) {
 
     .portfolio .portfolio-item,
+    .blog .blog-item,
     .contact .contact-info-item {
         flex: 0 0 100%;
         -ms-flex: 0 0 100%;

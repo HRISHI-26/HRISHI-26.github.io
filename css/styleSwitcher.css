@@ -66,14 +66,14 @@
 /* Dark Body */
 
 body.dark .section{
-    background-color: #485550;
+    background-color: #30363D;
 }
 body.dark .aside,
 body.dark .contact .contact-form .form-item .form-control,
 body.dark .blog .blog-item-inner .blog-info,
 body.dark .service .service-item .service-item-inner,
 body.dark .about .about-content .timeline{
-    background-color: #485550;
+    background-color: #30363D;
 }
 body.dark .aside .nav li a,
 body.dark .blog .blog-item-inner .blog-info .blog-title,
