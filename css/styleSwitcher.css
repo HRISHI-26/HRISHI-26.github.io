@@ -66,14 +66,14 @@
 /* Dark Body */
 
 body.dark .section{
-    background-color: #151515;
+    background-color: #485550;
 }
 body.dark .aside,
 body.dark .contact .contact-form .form-item .form-control,
 body.dark .blog .blog-item-inner .blog-info,
 body.dark .service .service-item .service-item-inner,
 body.dark .about .about-content .timeline{
-    background-color: #222222;
+    background-color: #485550;
 }
 body.dark .aside .nav li a,
 body.dark .blog .blog-item-inner .blog-info .blog-title,
@@ -87,7 +87,8 @@ body.dark .about .about-content .about-text h3,
 body.dark .home .intro h1,
 body.dark .about .about-content h3.title,
 body.dark .section-title h2,
-body.dark .aside .logo a{
+body.dark .aside .logo a,
+body.dark .copyright-text{
     color: #ffffff;
 }
 body.dark .home .intro span,
@@ -105,15 +106,17 @@ body.dark .about .about-content .about-text p{
 }
 body.dark .about .about-content .personal-info .info-item p,
 body.dark .aside,
-body.dark .contact .contact-form .form-item .form-control,
+/* body.dark .contact .contact-form .form-item .form-control, */
 body.dark .blog .blog-item-inner,
 body.dark .portfolio .portfolio-item-innner,
 body.dark .service .service-item .service-item-inner,
 body.dark .about .about-content .timeline,
 body.dark .aside .nav li a{
-    border-color: #393939;
+    border: none;
+    /* border-color: #A4A4A4; */
 }
 body.dark .shadow-dark{
-    -webkit-box-shadow: none;
-    box-shadow: none;
+    -webkit-box-shadow: 0 0 15px 2px rgba(255, 255, 255, 0.15);
+    box-shadow: 0 0 15px 2px rgba(255, 255, 255, 0.15);
+    /* box-shadow: 0 0 10px 5px rgba(194, 244, 101, 0.15);; */
 }

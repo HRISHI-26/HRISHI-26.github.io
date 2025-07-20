@@ -3,13 +3,13 @@
 /*Google fonts*/
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Rubik:500,700,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Intel+One+Mono:ital,wght@0,300..700;1,300..700&display=swap');
 /* General Style */
 body {
     margin: 0;
     line-height: 1.5;
     font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Intel One Mono', monospace;
     font-weight: 400;
 }
 
@@ -29,11 +29,11 @@ body {
 input,
 textarea,
 select {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Intel One Mono', monospace;
 }
 
 .section {
-    background-color: #f2f2fc;
+    background-color: whitesmoke;
     min-height: 100vh;
     display: block;
     padding: 0 30px;
@@ -140,10 +140,10 @@ select {
 }
 
 .section-title h2 {
-    font-size: 40px;
+    font-size: 35px;
     color: #302e4d;
-    font-family: 'Rubik', sans-serif;
-    font-weight: 700;
+    font-family: 'Intel One Mono', monospace;
+    font-weight: 600;
     margin: 0;
     position: relative;
 }
@@ -194,11 +194,11 @@ select {
 }
 
 .btn {
-    font-size: 16px;
-    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    font-family: 'Intel One Mono', monospace;
     font-weight: 500;
     padding: 12px 35px;
-    color: #ffffff;
+    color: #485550;
     border-radius: 40px;
     transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
@@ -279,7 +279,7 @@ select {
 
 .aside {
     width: 270px;
-    background-color: #fdf9ff;
+    background-color: #F9F9F9;
     position: fixed;
     height: 100%;
     left: 0;
@@ -289,7 +289,7 @@ select {
     /* padding: 30px; */
     transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
-    /* overflow-y: auto; */
+    overflow-y: auto;
 }
 
 .aside .aside-inner {
@@ -307,10 +307,10 @@ select {
 }
 
 .aside .logo a {
-    font-size: 40px;
+    font-size: 35px;
     color: #302e4d;
-    font-family: 'Rubik', sans-serif;
-    font-weight: 700;
+    font-family: 'Intel One Mono', monospace;
+    font-weight: 500;
     text-decoration: none;
     display: inline-block;
     position: relative;
@@ -450,23 +450,24 @@ select {
 }
 
 .home .intro img {
-    height: 200px;
-    width: 200px;
+    height: 350px;
+    width: 350px;
     border-radius: 50%;
     display: inline-block;
     border: 8px solid #ffffff;
+    box-shadow: 0 0 50px 30px rgba(244, 244, 244, 0.15);
 }
 
 .home .intro h1 {
-    font-size: 30px;
+    font-size: 50px;
     color: #302e4d;
-    font-family: 'Rubik', sans-serif;
-    font-weight: 700;
+    font-family: 'Intel One Mono', monospace;
+    font-weight: 500;
     margin: 20px 0 5px;
 }
 
 .home .intro span {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
     margin: 0;
     line-height: 22px;
@@ -479,17 +480,21 @@ select {
 }
 
 .home .intro .social-links a {
-    height: 35px;
-    width: 35px;
+    height: 40px;
+    width: 40px;
     display: inline-block;
     text-align: center;
     line-height: 35px;
-    color: #ffffff;
-    margin: 0 4px;
+    color: #485550;
+    margin: 0 5px;
     border-radius: 40%;
     text-decoration: none;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
+}
+.home .intro .social-links a i{
+    vertical-align: middle;
+    font-size: 18px;
 }
 
 .home .intro .social-links a:hover {
@@ -818,7 +823,8 @@ select {
     border: none;
     background-color: transparent;
     font-size: 18px;
-    font-weight: 700;
+    font-family: 'Intel One Mono', monospace;
+    font-weight: 500;
     text-transform: capitalize;
     margin: 0 10px;
     color: #302e4d;
@@ -905,7 +911,7 @@ select {
 
 .portfolio .portfolio-item .portfolio-info h4 {
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 400;
     color: #ffffff;
     text-transform: capitalize;
     transition: all 0.3s ease;
@@ -1123,7 +1129,7 @@ select {
     position: absolute;
     padding: 4px 10px;
     border-radius: 5px;
-    color: #ffffff;
+    color: #485550;
     font-size: 14px;
     font-weight: 600;
     left: 15px;
@@ -1239,7 +1245,10 @@ select {
 }
 
 .contact .contact-form .form-item textarea.form-control {
-    height: 140px;
+    height: 140px;    
+}
+textarea::placeholder, input::placeholder {
+    color: lightgray;
 }
 
 .contact .contact-form .btn {
@@ -1261,7 +1270,7 @@ select {
     }
 
     .aside .nav-toggler.open {
-        left: 300px;
+        left: 400px;
     }
 
     .aside {
@@ -1295,6 +1304,7 @@ select {
         -ms-flex: 0 0 50%;
         max-width: 50%;
     }
+
 }
 
 @media(max-width: 767px) {
@@ -1323,5 +1333,9 @@ select {
         flex: 0 0 100%;
         -ms-flex: 0 0 100%;
         max-width: 100%;
+    }
+
+    .aside.open{
+        width: 100%;
     }
 }
