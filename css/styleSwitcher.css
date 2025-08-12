@@ -66,14 +66,14 @@
 /* Dark Body */
 
 body.dark .section{
-    background-color: #30363D;
+    background-color: #3A4050;
 }
 body.dark .aside,
 body.dark .contact .contact-form .form-item .form-control,
 body.dark .blog .blog-item-inner .blog-info,
 body.dark .service .service-item .service-item-inner,
 body.dark .about .about-content .timeline{
-    background-color: #30363D;
+    background-color: #3A4050;
 }
 body.dark .aside .nav li a,
 body.dark .blog .blog-item-inner .blog-info .blog-title,
@@ -102,7 +102,7 @@ body.dark .about .about-content .timeline .timeline-date,
 body.dark .about .about-content .skills .skill-item .skill-porcent,
 body.dark .about .about-content .personal-info .info-item p span,
 body.dark .about .about-content .about-text p{
-    color: #e9e9e9;
+    color: #ffffff;
 }
 body.dark .about .about-content .personal-info .info-item p,
 body.dark .aside,

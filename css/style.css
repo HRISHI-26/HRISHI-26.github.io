@@ -1,16 +1,17 @@
 /*Font Awesome Free Icon*/
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 /*Google fonts*/
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Rubik:500,700,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Intel+One+Mono:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Intel+One+Mono:ital,wght@0,300..700;1,300..700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Saira:ital,wght@0,100..900;1,100..900&family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* General Style */
 body {
     margin: 0;
     line-height: 1.5;
     font-size: 16px;
-    font-family: 'Intel One Mono', monospace;
-    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
 }
 
 * {
@@ -29,7 +30,7 @@ body {
 input,
 textarea,
 select {
-    font-family: 'Intel One Mono', monospace;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .section {
@@ -142,8 +143,8 @@ select {
 .section-title h2 {
     font-size: 35px;
     color: #302e4d;
-    font-family: 'Intel One Mono', monospace;
-    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
     margin: 0;
     position: relative;
 }
@@ -195,8 +196,8 @@ select {
 
 .btn {
     font-size: 15px;
-    font-family: 'Intel One Mono', monospace;
-    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
     padding: 12px 35px;
     color: #485550;
     border-radius: 40px;
@@ -309,8 +310,8 @@ select {
 .aside .logo a {
     font-size: 35px;
     color: #302e4d;
-    font-family: 'Intel One Mono', monospace;
-    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
     text-decoration: none;
     display: inline-block;
     position: relative;
@@ -461,8 +462,8 @@ select {
 .home .intro h1 {
     font-size: 50px;
     color: #302e4d;
-    font-family: 'Intel One Mono', monospace;
-    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
     margin: 20px 0 5px;
 }
 
@@ -823,8 +824,8 @@ select {
     border: none;
     background-color: transparent;
     font-size: 18px;
-    font-family: 'Intel One Mono', monospace;
-    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 200;
     text-transform: capitalize;
     margin: 0 10px;
     color: #302e4d;
