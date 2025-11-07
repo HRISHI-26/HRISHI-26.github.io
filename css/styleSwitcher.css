@@ -66,14 +66,14 @@
 /* Dark Body */
 
 body.dark .section{
-    background-color: #3A4050;
+    background-color: #202630;
 }
 body.dark .aside,
 body.dark .contact .contact-form .form-item .form-control,
 body.dark .blog .blog-item-inner .blog-info,
 body.dark .service .service-item .service-item-inner,
 body.dark .about .about-content .timeline{
-    background-color: #3A4050;
+    background-color: #202630;
 }
 body.dark .aside .nav li a,
 body.dark .blog .blog-item-inner .blog-info .blog-title,
@@ -102,7 +102,7 @@ body.dark .about .about-content .timeline .timeline-date,
 body.dark .about .about-content .skills .skill-item .skill-porcent,
 body.dark .about .about-content .personal-info .info-item p span,
 body.dark .about .about-content .about-text p{
-    color: #ffffff;
+    color: #D6EBF3;
 }
 body.dark .about .about-content .personal-info .info-item p,
 body.dark .aside,
@@ -113,7 +113,7 @@ body.dark .service .service-item .service-item-inner,
 body.dark .about .about-content .timeline,
 body.dark .aside .nav li a{
     border: none;
-    /* border-color: #A4A4A4; */
+    /* border-color: #FF5757; */
 }
 body.dark .shadow-dark{
     -webkit-box-shadow: 0 0 15px 2px rgba(255, 255, 255, 0.15);
